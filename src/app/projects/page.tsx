@@ -7,10 +7,12 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
+
       <h1 className="text-lg md:text-7xl text-center font-semibold font-sans mb-8 text-white">My Projects</h1>
+
       <div className="flex flex-wrap justify-center">
-        {Projectdata.data.map((projects) => (
-          <CardContainer className="inter-var m-6">
+        {Projectdata.data.map((projects, i) => (
+          <CardContainer className="inter-var m-6" key={i}>
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-4 border">
             <CardItem
               translateZ="50"

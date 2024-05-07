@@ -15,12 +15,12 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="h-[43rem] mt-28 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
-      <h2 className="font-bold text-2xl text-center text-neutral-800 dark:text-neutral-200">
-        Feel Free To Contact Me
+    <div className="h-[60rem] mt-28 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+      <h2 className="font-bold text-5xl text-center text-neutral-800 dark:text-neutral-200">
+         Contact Me
       </h2>
-      <p className="text-neutral-600 text-lg max-w-sm mt-5 dark:text-neutral-300 text-center">
-        Feel free to contact me for any kind of collaboration and services related to web
+      <p className="text-neutral-600 text-lg max-w-2xl mt-5 dark:text-neutral-300 text-center">
+      Thank you for visiting my portfolio! If you have any questions or would like to discuss potential projects, do not hesitate to reach out. You can connect with me on LinkedIn. For inquiries, please email me. Collaborate and create something great together!
       </p>
 
       <form 

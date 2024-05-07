@@ -1,5 +1,4 @@
 "use client";
-
 import { cn } from "@/utils/cn";
 import Image from "next/image";
 import React, {
@@ -94,7 +93,6 @@ export const CardBody = ({
     </div>
   );
 };
-
 export const CardItem = ({
   as: Tag = "div",
   children,
@@ -131,7 +129,7 @@ export const CardItem = ({
       }
     };
   handleAnimations();
-  }, [isMouseEntered]);
+  }, [isMouseEntered, rotateX, rotateY, rotateZ, translateX, translateY, translateZ]);
 
   return (
     <Tag

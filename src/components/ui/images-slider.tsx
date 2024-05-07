@@ -45,7 +45,7 @@ export const ImagesSlider = ({
         .catch((error) => console.error("Failed to load images", error));
     };
     loadImages();
-  }, []);
+  }, [images]);
   useEffect(() => {
     const handleNext = () => {
       setCurrentIndex((prevIndex) =>
@@ -80,7 +80,7 @@ export const ImagesSlider = ({
       window.removeEventListener("keydown", handleKeyDown);
       clearInterval(interval);
     };
-  }, []);
+  }, [autoplay, images.length]);
 
   const slideVariants = {
     initial: {
