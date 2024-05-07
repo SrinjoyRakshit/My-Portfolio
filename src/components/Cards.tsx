@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "HTML",
     description:
-      "I possess a deep proficiency in HTML, leveraging its full potential to create clean, structured, and semantic code. I utilize HTML5's advanced features to build accessible and responsive web pages, ensuring an optimal user experience across all devices",
+      "I possess a deep proficiency in HTML, leveraging its full potential to create clean, structured, and semantic code. I utilize the advanced features of HTML5 to build accessible and responsive web pages, ensuring an optimal user experience across all devices",
     link: "/",
   },
   {
@@ -40,7 +40,7 @@ export const projects = [
   {
     title: "Figma",
     description:
-      "My proficiency in Figma allows me to create visually appealing designs for web and mobile applications. I use Figma's collaborative tools to work seamlessly with design and development teams, streamlining the design-to-development process",
+      "My proficiency in Figma allows me to create visually appealing designs for web and mobile applications. I use collaborative tools of Figma to work seamlessly with design and development teams, streamlining the design-to-development process",
     link: "/",
   },
   {

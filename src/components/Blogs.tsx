@@ -31,7 +31,7 @@ const SkeletonTwo = () => {
       <p className="font-bold text-4xl text-white">JIS Tech Fest</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Our team AIEM in Jis Tech2K24 Event and we won the first prize
+        Our team AIEM in JIS Tech2K24 Event and we won the first prize
       </p>
     </div>
   );

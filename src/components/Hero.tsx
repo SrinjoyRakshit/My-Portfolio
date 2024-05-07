@@ -34,7 +34,7 @@ export default function ImagesSliderDemo() {
         </motion.p>
 
         <motion.p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-        I specialize in creating engaging user interfaces and seamless user experiences. My toolkit includes HTML, CSS, JavaScript, and modern frontend frameworks like React.js and Next.js. I'm also skilled in working with backend technologies and integrating APIs to build full-stack applications.
+        I specialize in creating engaging user interfaces and seamless user experiences. My toolkit includes HTML, CSS, JavaScript, and modern frontend frameworks like React.js and Next.js. I am also skilled in working with backend technologies and integrating APIs to build full-stack applications.
         </motion.p>
         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-10">
           <span><a href="Srinjoy_Rakshit_Resume.pdf" download="Srinjoy_Rakshit_Resume.pdf">Download CV →</a></span>

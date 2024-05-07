@@ -5,7 +5,7 @@ function Footer() {
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
             <p className="mb-4">
-            Let's collaborate and create something great together!
+             Collaborate and create something great together!
             </p>
           </div>
           <div>
