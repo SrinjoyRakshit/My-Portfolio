@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "title": "Greenery - Let's make the world green",
+            "description": "A plant selling website",
+            "image": "/images/greenery.jpg",
+            "github": "https://srinjoyrakshit.github.io/Greenery/"
+        },
+        {
+            "title": "Capuccino - Let's have a break",
+            "description": "A coffee shop website",
+            "image": "/images/coffee.jpg",
+            "github": "https://srinjoyrakshit.github.io/Cappuccino--Coffee-Shop/"  
+        },
+        {
+            "title": "Sanji - Let's eat some tasty",
+            "description": "A restaurant website",
+            "image": "/images/hotel.jpg",
+            "github": "https://srinjoyrakshit.github.io/Sanji-eat-some-tasty/"
+        },
+        {
+            "title": "TechnoGeeks - turn your dream into reality",
+            "description": "Our freelancing website",
+            "image": "/images/freelancing.jpg",
+            "github": "https://techno-geeks-org.vercel.app/"
+        }
+    ] 
+}
