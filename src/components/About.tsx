@@ -16,7 +16,12 @@ export default function TextGenerateEffectDemo() {
         <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         <div className="order-1 lg:order-1 shadow-2xl ">
             <Image 
-            className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] rounded-lg transition-transform duration-300 transform hover:scale-110 hover:rotate-3" src="images/hero.jpg" alt="dev"/>
+            src="/images/hero.jpg"
+            className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] rounded-lg transition-transform duration-300 transform hover:scale-110 hover:rotate-3"  
+            alt="dev"
+            width={500}
+            height={500}
+            />
         </div>
         <div className="order-2 lg:order-2  flex flex-col justify-center lg:items-start text-center sm:text-left ">
             <p className="mt-2 text-3xl md:text-5xl sm:text-sm text-white">Hi There</p>
