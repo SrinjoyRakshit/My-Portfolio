@@ -38,15 +38,33 @@ export const projects = [
     link: "/",
   },
   {
-    title: "Figma",
+    title: "Express.js",
     description:
-      "My proficiency in Figma allows me to create visually appealing designs for web and mobile applications. I use collaborative tools of Figma to work seamlessly with design and development teams, streamlining the design-to-development process",
+      "I excel in architecting robust server-side applications, leveraging Express.js to its fullest potential. From creating RESTful APIs that seamlessly integrate with various front-end frameworks to optimizing server performance, my proficiency in Express.js enables me to deliver scalable and efficient solutions.",
     link: "/",
   },
   {
     title: "Node.js",
     description:
       "My proficiency in Node.js enables me to develop efficient and scalable server-side applications that power dynamic web experiences. I have extensive experience working with Node.js ensuring seamless integration with frontend applications",
+    link: "/",
+  },
+  {
+    title: "MongoDb",
+    description:
+      "With a strong foundation in database design, I bring extensive expertise to any project requiring scalable and efficient data solutions. My proficiency in MongoDB spans from schema design and query optimization to replication and sharding strategies, allowing me to architect databases that meet stringent performance and scalability requirements.",
+    link: "/",
+  },
+  {
+    title: "MySQL",
+    description:
+      "With a deep understanding of relational database management systems and extensive experience in MySQL, I possess a robust skill set essential for developing and maintaining efficient database solutions. My expertise spans from designing normalized database schemas that ensure data integrity to optimizing complex queries for enhanced performance",
+    link: "/",
+  },
+  {
+    title: "Python",
+    description:
+      "My proficiency in Python is grounded in extensive experience and a deep understanding of the language's versatile capabilities. I excel in leveraging Python's simplicity and power to work in web development and Data Structures and Algorithm.",
     link: "/",
   },
 ];

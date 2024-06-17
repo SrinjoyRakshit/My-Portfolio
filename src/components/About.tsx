@@ -2,7 +2,7 @@
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Image from "next/image";
 
-const words = `A passionate frontend developer with a strong background in building dynamic and responsive web applications. My journey in the world of web development began with a curiosity for how websites work, and it quickly grew into a career that I deeply enjoy.
+const words = `A passionate Mern Stack developer with a strong background in building dynamic and responsive web applications. My journey in the world of web development began with a curiosity for how websites work, and it quickly grew into a career that I deeply enjoy.
 `;
 
 export default function TextGenerateEffectDemo() {
@@ -25,7 +25,7 @@ export default function TextGenerateEffectDemo() {
         </div>
         <div className="order-2 lg:order-2  flex flex-col justify-center lg:items-start text-center sm:text-left ">
             <p className="mt-2 text-3xl md:text-5xl sm:text-sm text-white">Hi There</p>
-            <h3 className="text-4xl font-bold md:text-7xl  text-white mt-4">I am <br />
+            <h3 className="text-3xl font-normal md:text-7xl  text-white mt-4">I am <br />
                 <span className="text-orange-400">Srinjoy Rakshit</span>
                 <TextGenerateEffect words={words} />
             </h3>

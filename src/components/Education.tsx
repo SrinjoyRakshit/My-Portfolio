@@ -1,13 +1,12 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import Image from "next/image";
 
 const content = [
   {
     title: "My College",
     description:
-      "I am a dedicated and innovative frontend developer who honed my skills at my college. My education provided me with a strong foundation in computer science principles and web development best practices. During my time at my college, I excelled in courses related to web technologies, user interface design, and software engineering",
+      "I am a dedicated and innovative Mern Stack developer who honed my skills during my college time. My education provided me with a strong foundation in computer science principles and web development best practices. During my time at my college, I excelled in courses related to web technologies, user interface design, and software engineering",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Abacus Institute of Engg. and Mang.
