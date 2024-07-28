@@ -1,6 +1,12 @@
 {
     "data": [
         {
+            "title": "StudyBuddy - Enlighten the world with education",
+            "description": "An University website",
+            "image": "/images/studybuddy.png",
+            "github": "https://studybuddyedu.netlify.app/"
+        },
+        {
             "title": "Greenery - Let's make the world green",
             "description": "A plant selling website",
             "image": "/images/greenery.jpg",
@@ -19,10 +25,16 @@
             "github": "https://srinjoyrakshit.github.io/Sanji-eat-some-tasty/"
         },
         {
-            "title": "TechnoGeeks - turn your dream into reality",
+            "title": "TechnoGeeks - Turn your dream into reality",
             "description": "Our freelancing website",
             "image": "/images/freelancing.jpg",
             "github": "https://techno-geeks-org.vercel.app/"
+        },
+        {
+            "title": "Shoppers - Measure of your daily dose",
+            "description": "A Dashboard Application",
+            "image": "/images/dashboard.png",
+            "github": "https://react-dashboard-rho-vert.vercel.app/"
         }
     ] 
 }

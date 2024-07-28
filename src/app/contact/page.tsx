@@ -1,18 +1,34 @@
 "use client";
-import React from "react";
+import React, {ChangeEvent, useState} from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import {
-  IconBrandGithub,
-  IconBrandTwitter,
-  IconBrandLinkedin
-} from "@tabler/icons-react";
 
 export default function SignupFormDemo() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    async function handleSubmit(e: ChangeEvent<HTMLInputElement>) {
+      e.preventDefault();
+      const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+          },
+          body: JSON.stringify({
+              access_key: "c4dec84d-5815-419f-8177-2ab061a4beff",
+              name: e.target.value,
+              email: e.target.value,
+              message: e.target.value,
+          }),
+      });
+      const result = await response.json();
+      if (result.success) {
+          console.log(result);
+      }
+  }
   };
   return (
     <div className="h-[60rem] mt-28 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
